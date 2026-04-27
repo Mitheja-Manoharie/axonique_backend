@@ -78,7 +78,8 @@ public class SecurityConfig {
         configuration.setAllowedOriginPatterns(
                 java.util.Arrays.asList(
                         "http://localhost:*",
-                        "http://127.0.0.1:*"));
+                        "http://127.0.0.1:*",
+                "https://www.axonique.space"));
 
         configuration.setAllowedMethods(
                 java.util.Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS", "HEAD"));
