@@ -19,7 +19,7 @@ public class CorsConfig {
     config.addAllowedOriginPattern("https://*.axonique.com"); //prod
     config.addAllowedOriginPattern("https://*.axonique.store"); //prod
     config.addAllowedOriginPattern("https://*.vercel.app"); //vercel
-    config.addAllowedOriginPattern("https://www.axonique.space");
+    config.addAllowedOriginPattern("https://www.axonique.space/*");
     config.addAllowedMethod("*"); // Allow all HTTP methods
     config.addAllowedHeader("*"); // Allow all headers
     config.setAllowCredentials(true); 
